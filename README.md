@@ -1,0 +1,2 @@
+Este script toma como base una fórmula, un conjunto de datos, una proporción para los conjuntos de entrenamiento y prueba, y un p_value para los intervalos de confianza y las pruebas de significancia. 
+Se imprimen los conjuntos de entrenamiento y prueba, el rendimiento del modelo, los coeficientes de la regresión, los valores predichos y las pruebas estadísticas para los supuestos de los residuales.
