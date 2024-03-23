@@ -84,7 +84,7 @@ regresion_lineal <- function(formula, data, prop = 0.66, p_value = 0.05){
   #QQplot normalidad
   qq_plot <- ggplot(df_rf, aes(sample = residuales)) +
     stat_qq(size = 3) +
-    geom_abline(intercept = mean(residuales), slope = sd(residuales), color = "#6c0000", linewidth = 1.5, alpha = 0.6) +  # Agrega la línea de referencia qqline
+    geom_abline(intercept = mean(residuales), slope = sd(residuales), color = "#6c0000", linewidth = 1.5, alpha = 0.6) +
     labs(title = "Normal Q-Q Plot Residuales",
          x = "Cuantiles teoricos",
          y = "Cuantiles observados") + theme_minimal()
